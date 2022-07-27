@@ -35,7 +35,7 @@ export default function Header() {
               type="text"
               value={term}
               onChange={(e) => setTerm(e.target.value)}
-              placeholder="Enter species name"
+              placeholder="Enter country name"
             />
             <button aria-label="Mute volume" type="submit">
               <FiSearch className="icons" />
