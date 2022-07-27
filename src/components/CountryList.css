@@ -1,0 +1,35 @@
+body {
+  background-color: #FE5395;
+}
+
+.contain {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+
+@media (max-width: 480px) {
+  .contain {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 480px) {
+  .contain {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .contain {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1008px) {
+  .contain {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
