@@ -1,5 +1,5 @@
 body {
-  background-color: #FE5395;
+  background-color: #fe5395;
 }
 
 .contain {
@@ -8,7 +8,6 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
 }
-
 
 @media (max-width: 480px) {
   .contain {
