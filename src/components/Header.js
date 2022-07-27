@@ -20,7 +20,7 @@ export default function Header() {
   };
   return (
     <Navbar className="mx-auto Header">
-      <div className="container flex items-center justify-between text-black-900">
+      <div className="container flex items-center justify-around text-black-900 mx-auto px-5">
         <div className="title">
           <Link to="/">
             <FaLessThan className="icons" />
