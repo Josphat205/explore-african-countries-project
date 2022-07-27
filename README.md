@@ -7,7 +7,7 @@ Explore-african-countries-project is a web application that fetches data for all
 
 ## Demo
 
-[Explore-African-Countries]()
+[Explore-African-Countries](https://explore-africa-loman.netlify.app/)
 
 
 ## Run Locally
