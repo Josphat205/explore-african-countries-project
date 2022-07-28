@@ -23,7 +23,7 @@ function CountryComponent() {
           const { population, capital, name } = countryData[item1];
           return (
             <NavLink to={`country/${name.common}`} key={name.common}>
-              <div className="rounded-lg border border-gray-200 grid-cols-auto-fit shadow-md dark:bg-gray-800 dark:border-gray-700 card-div">
+              <div data-testid="cheking-test" className="rounded-lg border border-gray-200 grid-cols-auto-fit shadow-md dark:bg-gray-800 dark:border-gray-700 card-div">
                 <div className="px-5 py-0">
                   <div className="sub-title flex justify-between mx-1 items-center">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-white-900 dark:text-white country">
