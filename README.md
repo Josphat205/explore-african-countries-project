@@ -60,7 +60,7 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐ if you like this project!
 
 ## Acknowledgement
-Acknowledgments Great appreciation to Microverse community. Much appreciate to Nelson Sakwa Createor of design 📝 License This project is MIT licensed.
+Acknowledgments Great appreciation to Microverse community. Much appreciate to Nelson Sakwa Createor of design [link](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29)
 
 ## 📝 License
 
