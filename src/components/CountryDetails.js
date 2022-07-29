@@ -17,13 +17,13 @@ function CountryDetails() {
     flags, capital, area, subregion, name, population, languages, status, timezones, region, unMember, startOfWeek, landlocked,
   } = data[0];
   return (
-    <>
+    <div data-testid="countryDetails check">
       {
       loading === true
         ? <Loader />
         : (
 
-          <div className="pt-6 pb-12 bg-grey-300 mx-1">
+          <div  className="pt-6 pb-12 bg-grey-300 mx-1">
             <div id="card" className="bg-cerise-500 mb-2">
               <div className="title-div w-100 h-full p-7 m-0">
                 <h2 className="text-center font-serif text-white  uppercase text-4xl xl:text-5xl  font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-pink-800">{region}</h2>
@@ -101,7 +101,7 @@ function CountryDetails() {
         )
     }
 
-    </>
+    </div>
   );
 }
 
