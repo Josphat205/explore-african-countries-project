@@ -2,13 +2,13 @@ import {
   render, screen,
 } from '@testing-library/react';
 import { Provider } from 'react-redux';
-import store from '../../redux/configureStore';
-import App from '../../App';
 import '@testing-library/jest-dom/extend-expect';
+import CountryList from '../../CountryList';
+import store from '../../../redux/configureStore';
 
 describe('app check', () => {
-  test('app component', () => {
-    render(<Provider store={store}><App /></Provider>);
+  test('CountryList component', () => {
+    render(<Provider store={store}><CountryList /></Provider>);
     expect(screen.getByTestId('lookingBugs')).toBeInTheDocument();
   });
 });

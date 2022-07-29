@@ -17,7 +17,7 @@ function CountryDetails() {
     flags, capital, area, subregion, name, population, languages, status, timezones, region, unMember, startOfWeek, landlocked,
   } = data[0];
   return (
-    <>
+    <div data-testid="countryDetails check">
       {
       loading === true
         ? <Loader />
@@ -101,7 +101,7 @@ function CountryDetails() {
         )
     }
 
-    </>
+    </div>
   );
 }
 

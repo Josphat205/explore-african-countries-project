@@ -5,13 +5,13 @@ Explore-african-countries-project is a web application that fetches data for all
 ## Screenshot
 ![App Screenshot](design.png)
 
-## Demo
-
-[Explore-African-Countries](https://explore-africa-loman.netlify.app/)
-
 ## Live Presentation
 
 [Explore-African-Countries](https://www.loom.com/share/6f39e75b7f074c4d8390fe79d6488700)
+
+## Demo
+
+[Explore-African-Countries](https://explore-africa-loman.netlify.app/)
 
 
 ## Run Locally
@@ -58,6 +58,9 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 
 Give a ⭐ if you like this project!
+
+## Acknowledgement
+Acknowledgments Great appreciation to Microverse community. Much appreciate to Nelson Sakwa Createor of design [link](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29)
 
 ## 📝 License
 
