@@ -15,7 +15,7 @@ function CountryComponent() {
   const { loading } = loadData;
   const Obj = Object.keys(countryData);
   return (
-    <div data-testid="cheking-test">
+    <>
       {loading === true ? (
         <Loader />
       ) : (
@@ -58,7 +58,7 @@ function CountryComponent() {
           );
         })
       )}
-    </div>
+    </>
   );
 }
 
